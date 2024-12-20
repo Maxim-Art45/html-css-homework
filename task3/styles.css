@@ -1,0 +1,45 @@
+
+
+* { margin: 0; padding: 0; }
+body{
+    background-color: rgb(61, 64, 64);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    flex: 1;
+    text-align: justify;
+}
+
+div{
+    display: flex;
+   box-shadow:0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+   
+}
+
+p{
+    width: auto;
+    height: auto;
+}
+
+section{
+    width: 250px;
+    height: auto;
+    margin: 1px 5px 1px 5px;
+    border: solid #000;
+    border-width: 3px;
+    padding: 10px;
+    
+}
+
+img{
+    height: 50%;
+    width: 60%;
+}
+
+.color-button:hover {
+    background-color: #b30000; /* Цвет кнопки при наведении */
+    text-align: center;
+}
+
+.card{
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
